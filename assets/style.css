@@ -76,6 +76,15 @@ li { margin: 0.35rem 0; }
 }
 .card h3 { margin-top: 0; }
 
+.demo-banner {
+  background: #fff7bf;
+  border-bottom: 1px solid #d4b106;
+  color: var(--ink);
+  padding: 0.75rem 1.25rem;
+  font-size: 0.95rem;
+}
+.demo-banner p { max-width: 60rem; margin: 0; }
+
 .callout {
   background: var(--bg-soft);
   border-left: 5px solid var(--ink);
