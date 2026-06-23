@@ -76,6 +76,28 @@ li { margin: 0.35rem 0; }
 }
 .card h3 { margin-top: 0; }
 
+.nav-new {
+  display: inline-block;
+  background: #00703c;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.05rem 0.35rem;
+  border-radius: 3px;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+}
+
+.new-banner {
+  background: #cce2d8;
+  border-left: 5px solid #00703c;
+  padding: 0.85rem 1.25rem;
+  margin: 0 0 1.5rem;
+}
+.new-banner p { margin: 0; }
+
 .demo-banner {
   background: #fff7bf;
   border-bottom: 1px solid #d4b106;
