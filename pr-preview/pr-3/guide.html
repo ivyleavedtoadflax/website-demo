@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guide: managing this site with GitHub — Test, Learn & Grow Playbook</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Test, Learn &amp; Grow</div>
+    <div class="tagline">A practical playbook for proportionate, iterative public-service improvement</div>
+  </header>
+  <nav class="primary" aria-label="Primary">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="approach.html">The approach</a></li>
+      <li><a href="how-we-work.html">How we work</a></li>
+      <li><a href="methods.html">Methods &amp; tools</a></li>
+      <li><a href="contribute.html">Contribute</a></li>
+      <li><a href="guide.html" aria-current="page">Guide</a></li>
+    </ul>
+  </nav>
+
+  <div class="demo-banner" role="note">
+    <p><strong>Example site.</strong> The content here is AI-generated and illustrative.
+      Its purpose is to demonstrate how GitHub can be used to build and manage a website —
+      with every change drafted, previewed and reviewed before it goes live.</p>
+  </div>
+
+  <main>
+    <h1>Managing this site with GitHub</h1>
+    <p class="lede">A plain-English guide to how this website is built and changed —
+      written for people who don't use GitHub day to day.</p>
+
+    <h2>The big idea</h2>
+    <p>The website has two states:</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Live</h3>
+        <p>What the public sees. It only changes when someone approves a change.</p>
+      </div>
+      <div class="card">
+        <h3>Drafts</h3>
+        <p>Proposed changes that are not yet live. Anyone can work on one with no risk
+          to the real site.</p>
+      </div>
+    </div>
+    <p>A draft only becomes live after a person reviews and approves it.</p>
+
+    <h2>How a change gets made</h2>
+    <p>You never need to touch code or know the technical steps:</p>
+    <ol>
+      <li><strong>You describe the change</strong> — for example, "add a page about
+        stakeholder mapping" or "make the homepage intro simpler". AI does the editing.</li>
+      <li><strong>A draft is created</strong>, separate from the live site, so nothing
+        the public sees changes yet.</li>
+      <li><strong>You get a preview link</strong> — the draft is published to its own
+        temporary web address, so you see it as a real page, not as code.</li>
+      <li><strong>Someone reviews it</strong> — a reviewer reads the change, asks for
+        tweaks, or approves.</li>
+      <li><strong>It goes live</strong> — once approved, the change publishes
+        automatically and the temporary preview is removed.</li>
+    </ol>
+
+    <div class="callout">
+      <strong>In one line:</strong> describe&nbsp;→ draft&nbsp;→ preview&nbsp;→
+      review&nbsp;→ approve&nbsp;→ live. The technical steps are handled for you.
+    </div>
+
+    <div class="callout">
+      <strong>See it in action.</strong> There's a real draft open right now — a proposed
+      "Case studies" section waiting for review:
+      <ul>
+        <li>The draft (the proposed change):
+          <a href="https://github.com/ivyleavedtoadflax/website-demo/pull/3">pull request #3</a></li>
+        <li>The live preview of that draft:
+          <a href="https://ivyleavedtoadflax.github.io/website-demo/pr-preview/pr-3/case-studies.html">preview link</a></li>
+      </ul>
+      Nothing on this live site changes until that draft is approved and merged.
+    </div>
+
+    <h2>Why it's done this way</h2>
+    <ul>
+      <li><strong>The live site can't break by accident</strong> — drafts stay separate
+        until approved.</li>
+      <li><strong>Every change is visible</strong> — you can always see exactly what
+        changed and who changed it.</li>
+      <li><strong>Anything can be undone</strong> — every change is recorded, so mistakes
+        are easy to roll back.</li>
+      <li><strong>Automatic checks</strong> can catch common errors, like a broken link,
+        before a change goes live.</li>
+    </ul>
+
+    <h2>The one role worth having</h2>
+    <p>A single person who's comfortable reviewing changes — a content lead, say — is
+      enough to keep quality high. They don't write code; they read the preview, check it
+      reads well, and approve. That's the safeguard against anything odd slipping through.</p>
+
+    <p>Ready to make a change? See <a href="contribute.html">Contribute</a>.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Draft playbook — content is illustrative and under active development.</p>
+  </footer>
+</body>
+</html>
